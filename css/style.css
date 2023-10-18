@@ -23,7 +23,8 @@
 nav {
   background-color: black;
   width: 55px;
-  height: calc(100vh - 100px);
+  height: calc(100% - 100px);
+
   position: fixed;
   left: 0;
   top: 0;
@@ -47,7 +48,7 @@ nav ul li {
   padding-top: 0.3125rem;
 }
 .nav-menu .playlist {
-  height: 250px;
+  height: 300px;
   overflow-y: auto;
   width: 95%;
 }
@@ -75,8 +76,9 @@ nav ul li {
 */
 .myspotify {
   background-color: var(--main-bg);
-  padding-left: 50px;
+  width: 100%;
   overflow-y: auto;
+  height: 130vh;
 }
 
 /* 
@@ -116,7 +118,7 @@ footer {
   }
   nav ul li,
   .big-logo {
-    padding-left: 0.625rem;
+    padding-left: 0.9375rem;
   }
   #nav-green {
     border-left: 2px solid var(--green);
@@ -132,7 +134,7 @@ footer {
   /* ?bottom nav */
   .bottom-nav {
     align-items: normal;
-    padding: 0.625rem;
+    padding: 0.9375rem;
   }
   .bottom-nav .john-doe {
     padding-top: 15px;
