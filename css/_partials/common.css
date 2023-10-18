@@ -15,3 +15,15 @@
 .mb15 {
   margin-bottom: 0.9375rem;
 }
+.none {
+  display: none;
+}
+.vertical-align {
+  vertical-align: middle;
+}
+.bold {
+  font-weight: bold;
+}
+.white {
+  color: white;
+}
