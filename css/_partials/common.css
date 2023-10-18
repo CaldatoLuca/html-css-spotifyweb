@@ -1,0 +1,17 @@
+/* 
+?------------
+!UTILITY
+?------------
+*/
+.flex {
+  display: flex;
+}
+.br50 {
+  border-radius: 50px;
+}
+.mb10 {
+  margin-bottom: 0.625rem;
+}
+.mb15 {
+  margin-bottom: 0.9375rem;
+}

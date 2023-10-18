@@ -14,3 +14,70 @@
   --footer-bg: #282828;
   --green: #adff2f;
 }
+
+/* 
+?------------
+!NAV
+?------------
+*/
+nav {
+  background-color: black;
+  width: 55px;
+  height: calc(100vh - 120px);
+  position: fixed;
+  left: 0;
+  top: 0;
+  padding: 5px 10px 10px 10px;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.bottom-nav {
+  flex-direction: column;
+  align-items: center;
+}
+.bottom-nav .donwload {
+  width: 20px;
+}
+.bottom-nav .nav-profile {
+  background-color: var(--text-grey);
+  padding: 4px;
+  width: 80%;
+  margin-top: 30px;
+}
+
+/* 
+?------------
+!MYSPOTIFY
+?------------
+*/
+.myspotify {
+  background-color: var(--main-bg);
+  padding-left: 50px;
+  overflow-y: auto;
+}
+
+/* 
+?------------
+!FOOTER
+?------------
+*/
+footer {
+  background-color: var(--footer-bg);
+  height: 120px;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+/* 
+?------------
+!RESPONSIVE
+?------------
+*/
+@media screen and (min-width: 553px) {
+  /* *navigation */
+  nav {
+    width: 20vh;
+  }
+}
