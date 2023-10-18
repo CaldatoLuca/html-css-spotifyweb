@@ -1,0 +1,16 @@
+@import "_partials/reset.css";
+@import "_partials/common.css";
+@import "_partials/typho.css";
+
+/* 
+?------------
+!PALETTE
+?------------
+*/
+:root {
+  --text-grey: #7c7e83;
+  --top-main-bg: #080b12;
+  --main-bg: #141922;
+  --footer-bg: #282828;
+  --green: #adff2f;
+}
