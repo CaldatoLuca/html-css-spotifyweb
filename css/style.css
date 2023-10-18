@@ -23,22 +23,33 @@
 nav {
   background-color: black;
   width: 55px;
-  height: calc(100vh - 120px);
+  height: calc(100vh - 100px);
   position: fixed;
   left: 0;
   top: 0;
-  padding: 5px 10px 10px 10px;
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
   color: var(--text-grey);
 }
 nav img {
-  width: 30px;
+  width: 25px;
+}
+nav ul {
+  flex-direction: column;
+}
+nav ul li {
+  line-height: 100%;
 }
 .nav-menu {
   flex-direction: column;
   align-items: center;
+  padding-top: 0.3125rem;
+}
+.nav-menu .playlist {
+  height: 250px;
+  overflow-y: auto;
+  width: 95%;
 }
 .bottom-nav {
   flex-direction: column;
@@ -75,7 +86,7 @@ nav img {
 */
 footer {
   background-color: var(--footer-bg);
-  height: 120px;
+  height: 100px;
   position: fixed;
   bottom: 0;
   left: 0;
@@ -88,25 +99,44 @@ footer {
 ?------------
 */
 @media screen and (min-width: 553px) {
+  /* *common */
+  .none {
+    display: inline-block;
+  }
+  .only-mobile {
+    display: none;
+  }
   /* *navigation */
   nav {
     width: 200px;
     align-items: normal;
-    padding: 1.25rem 0.9375rem 0.625rem 0.9375rem;
   }
   nav img {
     margin-right: 10px;
   }
+  nav ul li,
+  .big-logo {
+    padding-left: 0.625rem;
+  }
+  #nav-green {
+    border-left: 2px solid var(--green);
+  }
+  /* ?nav menu */
+  .nav-menu {
+    align-items: flex-start;
+    padding-top: 0.9375rem;
+  }
+  .big-logo {
+    width: 80%;
+  }
   /* ?bottom nav */
   .bottom-nav {
-    display: inline;
+    align-items: normal;
+    padding: 0.625rem;
   }
   .bottom-nav .john-doe {
     padding-top: 15px;
     border-top: 1px solid var(--text-grey);
     margin-top: 15px;
-  }
-  .none {
-    display: inline-block;
   }
 }
