@@ -26,6 +26,9 @@
 .mb35 {
   margin-bottom: 2.1875rem;
 }
+.mb40 {
+  margin-bottom: 2.5rem;
+}
 /* ?DISPLAY */
 .none,
 .none-flex {
@@ -55,4 +58,8 @@
   background-color: var(--top-main-bg);
   color: white;
   font-size: 11px;
+}
+/* ?BORDER RADIUS */
+.br50 {
+  border-radius: 50%;
 }
