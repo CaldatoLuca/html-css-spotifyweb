@@ -17,12 +17,13 @@
 .mb20 {
   margin-bottom: 1.25rem;
 }
+.mb25 {
+  margin-bottom: 1.5625rem;
+}
 .mb30 {
   margin-bottom: 1.875rem;
 }
-.mb35 {
-  margin-bottom: 2.1875rem;
-}
+
 /* ?DISPLAY */
 .none,
 .none-flex {

@@ -78,6 +78,7 @@ nav img {
   background-color: var(--main-bg);
   flex-grow: 1;
   overflow-y: auto;
+  color: var(--text-grey);
 }
 /* ?parte alta col bottone */
 .myspotify .top-myspotify {
@@ -104,16 +105,28 @@ nav img {
   bottom: 0;
   left: 50%;
   right: 50%;
-  height: 50%;
+  height: 40%;
   width: 1px;
-  transform: rotate(100grad) scale(2.5);
+  transform: rotate(100grad) scale(3);
 }
 .bottom-myspotify .bottom-myspotify-menu a {
   text-decoration: none;
   color: var(--text-grey);
   margin-right: 30px;
 }
-
+.bottom-myspotify .recently-played .grid {
+  margin: -5px;
+  flex-wrap: wrap;
+  background-color: rebeccapurple;
+}
+.bottom-myspotify .recently-played .grid .grid-element {
+  width: calc(100% / 2);
+  padding: 5px;
+  background-color: royalblue;
+}
+.bottom-myspotify .recently-played .grid .grid-element img {
+  width: 100%;
+}
 /* 
 ?------------
 !FOOTER
@@ -176,5 +189,18 @@ footer {
     padding-top: 15px;
     border-top: 1px solid var(--text-grey);
     margin-top: 15px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  /* ?corpo principlae con canzoni  */
+  .bottom-myspotify .recently-played .grid .grid-element {
+    width: calc(100% / 4);
+  }
+}
+@media screen and (min-width: 960px) {
+  /* ?corpo principlae con canzoni  */
+  .bottom-myspotify .recently-played .grid .grid-element {
+    width: calc(100% / 6);
   }
 }

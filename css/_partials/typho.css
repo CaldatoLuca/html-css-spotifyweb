@@ -1,5 +1,14 @@
+/* 
+?------------
+!COMMON
+?------------
+*/
 body {
   font-family: "Montserrat", sans-serif;
+}
+h2,
+h3 {
+  color: white;
 }
 /* 
 ?------------
