@@ -9,7 +9,7 @@
 */
 :root {
   --text-grey: #7c7e83;
-  --top-main-bg: #080b12;
+  --top-main-bg: rgb(8, 11, 18, 0.7);
   --main-bg: #141922;
   --footer-bg: #282828;
   --green: #adff2f;
@@ -78,11 +78,15 @@ nav img {
   background-color: var(--main-bg);
   flex-grow: 1;
   overflow-y: auto;
-  color: white;
 }
-p {
-  line-height: 600px;
+.myspotify .top-myspotify {
+  background-color: var(--top-main-bg);
+  height: 85px;
+  line-height: 85px;
+  text-align: right;
+  padding-right: 10px;
 }
+
 /* 
 ?------------
 !FOOTER

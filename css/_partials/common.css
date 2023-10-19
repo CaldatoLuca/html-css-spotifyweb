@@ -3,9 +3,8 @@
 !UTILITY
 ?------------
 */
-.flex {
-  display: flex;
-}
+
+/* ?MARGIN BOTTOM */
 .br50 {
   border-radius: 50px;
 }
@@ -21,10 +20,15 @@
 .mb30 {
   margin-bottom: 1.875rem;
 }
+/* ?DISPLAY */
 .none,
 .none-flex {
   display: none;
 }
+.flex {
+  display: flex;
+}
+/* ?FONT E COLORE */
 .vertical-align {
   vertical-align: middle;
 }
@@ -32,5 +36,13 @@
   font-weight: bold;
 }
 .white {
+  color: white;
+}
+/* ?BOTTONI */
+.btn {
+  padding: 10px 40px;
+  border-radius: 20px;
+  border: 1px solid white;
+  background-color: var(--top-main-bg);
   color: white;
 }
