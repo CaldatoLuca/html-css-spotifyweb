@@ -79,12 +79,39 @@ nav img {
   flex-grow: 1;
   overflow-y: auto;
 }
+/* ?parte alta col bottone */
 .myspotify .top-myspotify {
   background-color: var(--top-main-bg);
   height: 85px;
-  line-height: 85px;
+  line-height: 5.3125rem;
   text-align: right;
-  padding-right: 10px;
+  padding-right: 0.625rem;
+}
+
+/* ?corpo principlae con canzoni  */
+.myspotify .bottom-myspotify {
+  padding: 1.25rem;
+  line-height: 40px;
+}
+.bottom-myspotify #bottom-green {
+  position: relative;
+  display: inline-block;
+}
+#bottom-green:after {
+  content: "";
+  background: var(--green);
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  right: 50%;
+  height: 50%;
+  width: 1px;
+  transform: rotate(100grad) scale(2.5);
+}
+.bottom-myspotify .bottom-myspotify-menu a {
+  text-decoration: none;
+  color: var(--text-grey);
+  margin-right: 30px;
 }
 
 /* 

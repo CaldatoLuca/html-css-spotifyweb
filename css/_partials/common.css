@@ -20,6 +20,9 @@
 .mb30 {
   margin-bottom: 1.875rem;
 }
+.mb35 {
+  margin-bottom: 2.1875rem;
+}
 /* ?DISPLAY */
 .none,
 .none-flex {
@@ -37,6 +40,9 @@
 }
 .white {
   color: white;
+}
+.text-center {
+  text-align: center;
 }
 /* ?BOTTONI */
 .btn {
