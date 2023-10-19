@@ -5,6 +5,13 @@
 */
 body {
   font-family: "Montserrat", sans-serif;
+  font-size: 0.625rem;
+}
+h2 {
+  font-size: 1.25rem;
+}
+h3 {
+  font-size: 0.9375rem;
 }
 h2,
 h3 {

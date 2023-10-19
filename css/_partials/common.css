@@ -23,7 +23,9 @@
 .mb30 {
   margin-bottom: 1.875rem;
 }
-
+.mb35 {
+  margin-bottom: 2.1875rem;
+}
 /* ?DISPLAY */
 .none,
 .none-flex {
@@ -52,4 +54,5 @@
   border: 1px solid white;
   background-color: var(--top-main-bg);
   color: white;
+  font-size: 11px;
 }

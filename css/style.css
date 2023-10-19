@@ -92,9 +92,12 @@ nav img {
 /* ?corpo principlae con canzoni  */
 .myspotify .bottom-myspotify {
   padding: 1.25rem;
+}
+/* menu */
+.bottom-myspotify .bottom-myspotify-menu {
   line-height: 40px;
 }
-.bottom-myspotify #bottom-green {
+.bottom-myspotify-menu #bottom-green {
   position: relative;
   display: inline-block;
 }
@@ -114,15 +117,14 @@ nav img {
   color: var(--text-grey);
   margin-right: 30px;
 }
+/* griglia */
 .bottom-myspotify .recently-played .grid {
-  margin: -5px;
+  margin: -10px;
   flex-wrap: wrap;
-  background-color: rebeccapurple;
 }
 .bottom-myspotify .recently-played .grid .grid-element {
   width: calc(100% / 2);
-  padding: 5px;
-  background-color: royalblue;
+  padding: 10px;
 }
 .bottom-myspotify .recently-played .grid .grid-element img {
   width: 100%;
