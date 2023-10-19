@@ -179,6 +179,7 @@ footer,
   flex-grow: 1;
   justify-content: center;
   gap: 0.9375rem;
+  padding: 0 0.9375rem;
 }
 .time-bar {
   background-color: var(--text-grey);
