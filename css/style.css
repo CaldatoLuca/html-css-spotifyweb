@@ -14,6 +14,14 @@
   --footer-bg: #282828;
   --green: #adff2f;
 }
+/* 
+?------------
+!MAIN
+?------------
+*/
+main {
+  height: calc(100% - 90px);
+}
 
 /* 
 ?------------
@@ -22,39 +30,31 @@
 */
 nav {
   background-color: black;
-  width: 55px;
-  height: calc(100% - 100px);
-
-  position: fixed;
-  left: 0;
-  top: 0;
-  flex-direction: column;
-  justify-content: space-between;
+  flex-shrink: 0;
+  padding: 10px;
   align-items: center;
   color: var(--text-grey);
+}
+nav,
+nav .icon,
+nav .playlist,
+nav .bottom-nav {
+  flex-direction: column;
 }
 nav img {
   width: 25px;
 }
-nav ul {
-  flex-direction: column;
+.playlist {
+  flex-grow: 1;
+  overflow: hidden;
+  min-height: 20px;
 }
-nav ul li {
-  line-height: 100%;
-}
-.nav-menu {
-  flex-direction: column;
-  align-items: center;
-  padding-top: 0.3125rem;
-}
-.nav-menu .playlist {
-  height: 300px;
+.playlist .list {
   overflow-y: auto;
-  width: 95%;
 }
 .bottom-nav {
-  flex-direction: column;
   align-items: center;
+  margin-top: auto;
 }
 .bottom-nav .donwload {
   width: 20px;
@@ -76,11 +76,13 @@ nav ul li {
 */
 .myspotify {
   background-color: var(--main-bg);
-  width: 100%;
+  flex-grow: 1;
   overflow-y: auto;
-  height: 130vh;
+  color: white;
 }
-
+p {
+  line-height: 600px;
+}
 /* 
 ?------------
 !FOOTER
@@ -88,7 +90,7 @@ nav ul li {
 */
 footer {
   background-color: var(--footer-bg);
-  height: 100px;
+  height: 90px;
   position: fixed;
   bottom: 0;
   left: 0;
@@ -100,34 +102,37 @@ footer {
 !RESPONSIVE
 ?------------
 */
-@media screen and (min-width: 553px) {
+
+@media screen and (min-width: 576px) {
   /* *common */
   .none {
     display: inline-block;
+  }
+  .none-flex {
+    display: flex;
   }
   .only-mobile {
     display: none;
   }
   /* *navigation */
   nav {
-    width: 200px;
+    width: 230px;
     align-items: normal;
+    padding: 1.25rem 0;
   }
   nav img {
     margin-right: 10px;
   }
-  nav ul li,
-  .big-logo {
+  .icon li,
+  .big-logo,
+  .playlist {
     padding-left: 0.9375rem;
   }
   #nav-green {
     border-left: 2px solid var(--green);
   }
   /* ?nav menu */
-  .nav-menu {
-    align-items: flex-start;
-    padding-top: 0.9375rem;
-  }
+
   .big-logo {
     width: 80%;
   }

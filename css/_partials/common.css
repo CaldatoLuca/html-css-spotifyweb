@@ -21,7 +21,8 @@
 .mb30 {
   margin-bottom: 1.875rem;
 }
-.none {
+.none,
+.none-flex {
   display: none;
 }
 .vertical-align {
