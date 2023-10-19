@@ -5,8 +5,8 @@
 */
 
 /* ?MARGIN BOTTOM */
-.br50 {
-  border-radius: 50px;
+.mb5 {
+  margin-bottom: 0.3125rem;
 }
 .mb10 {
   margin-bottom: 0.625rem;
