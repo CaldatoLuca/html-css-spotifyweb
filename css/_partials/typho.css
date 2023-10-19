@@ -27,3 +27,21 @@ h3 {
   font-size: 2.5rem;
   margin-right: 0.5rem;
 }
+
+/* 
+?------------
+!FOOTER
+?------------
+*/
+.fa-shuffle,
+.fa-backward-step,
+.fa-forward-step,
+.fa-rotate-right {
+  font-size: 1.125rem;
+}
+.fa-circle-play {
+  font-size: 1.875rem;
+}
+.footer-player-bottom span {
+  font-size: 0.6875rem;
+}
