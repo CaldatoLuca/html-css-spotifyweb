@@ -115,7 +115,6 @@ nav img {
 .bottom-myspotify .bottom-myspotify-menu a {
   text-decoration: none;
   color: var(--text-grey);
-  margin-right: 30px;
 }
 /* griglia */
 .grid {
@@ -157,8 +156,30 @@ footer {
   bottom: 0;
   left: 0;
   right: 0;
+  color: var(--text-grey);
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 0.625rem;
+}
+.footer-song {
+  align-items: center;
+}
+.footer-song img {
+  width: 2.5rem;
+}
+.footer-song .icons {
+  flex-direction: column;
 }
 
+.footer-player {
+  flex-grow: 1;
+  align-items: center;
+  justify-content: center;
+}
+.footer-player .footer-player-top,
+.footer-player .footer-player-bottom {
+  width: 100%;
+}
 /* 
 ?------------
 !RESPONSIVE
@@ -181,9 +202,6 @@ footer {
     width: 230px;
     align-items: normal;
     padding: 1.25rem 0;
-  }
-  nav img {
-    margin-right: 10px;
   }
   .icon li,
   .big-logo,
@@ -214,6 +232,14 @@ footer {
   /* ?corpo principlae con canzoni  */
   .grid .grid-element {
     width: calc(100% / 4);
+  }
+  /* ?footer */
+  .footer-song .mr25 {
+    margin-right: 2.5rem;
+  }
+  .footer-song .icons {
+    flex-direction: row;
+    gap: 0.9375rem;
   }
 }
 @media screen and (min-width: 960px) {
