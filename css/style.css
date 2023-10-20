@@ -320,12 +320,13 @@ i:hover {
 .img-container .fa-circle-play {
   display: none;
   color: white;
+  font-size: 50px;
 }
 .img-container {
   position: relative;
 }
-.img-container img:hover {
-  filter: opacity(0.8);
+.img-container:hover img {
+  filter: opacity(0.4);
 }
 .img-container:hover .fa-circle-play {
   display: block;
@@ -339,5 +340,6 @@ i:hover {
 footer .fa-circle-play:hover {
   font-size: 35px;
 }
-
-/* !TODO apri ticket, .play button non si vede su hover (con questa soluzione non è centrato)*/
+/* footer #big-bar:hover,
+footer #small-bar:hover {
+} */
