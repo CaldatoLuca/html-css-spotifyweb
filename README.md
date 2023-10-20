@@ -2,6 +2,6 @@
 
 _HTML+css_
 
-creazione della web app di spotify
+creazione della web app responsive di spotify
 
-- metodo mobile first
+- mobile first
