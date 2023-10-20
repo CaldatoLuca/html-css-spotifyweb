@@ -8,12 +8,16 @@ body {
   font-size: 0.8125rem;
   font-weight: bold;
 }
+h1 {
+  font-size: 40px;
+}
 h2 {
   font-size: 1.25rem;
 }
 h3 {
   font-size: 0.9375rem;
 }
+h1,
 h2,
 h3 {
   color: white;

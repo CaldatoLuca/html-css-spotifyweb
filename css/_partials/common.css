@@ -79,6 +79,13 @@
   text-decoration: none;
   color: var(--text-color);
 }
+.btn2 {
+  background-color: #ffc85d;
+  border: black;
+}
+.btn2 a {
+  color: black;
+}
 /* ?BORDER RADIUS */
 .br50 {
   border-radius: 50%;

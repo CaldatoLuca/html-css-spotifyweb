@@ -1,7 +1,6 @@
 @import "_partials/reset.css";
 @import "_partials/common.css";
 @import "_partials/typho.css";
-/* !TODO effetti hover, parte bianca nelle barre, togliere bold come class nell' html */
 
 /* 
 ?------------
@@ -35,6 +34,7 @@ nav {
   padding: 10px;
   align-items: center;
   color: var(--text-grey);
+  width: 55px;
 }
 nav,
 nav .icon,
@@ -44,6 +44,9 @@ nav .bottom-nav {
 }
 nav img {
   width: 25px;
+}
+nav .icon {
+  align-items: center;
 }
 .playlist {
   flex-grow: 1;
@@ -232,11 +235,15 @@ footer,
   .playlist {
     padding-left: 0.9375rem;
   }
+  nav .icon {
+    align-items: flex-start;
+  }
+  nav .icon img {
+    margin-right: 0.625rem;
+  }
   #nav-green {
     border-left: 2px solid var(--green);
   }
-  /* ?nav menu */
-
   .big-logo {
     width: 80%;
   }
