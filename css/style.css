@@ -2,6 +2,7 @@
 @import "_partials/common.css";
 @import "_partials/typho.css";
 /* !TODO effetti hover, parte bianca nelle barre, togliere bold come class nell' html */
+
 /* 
 ?------------
 !PALETTE
@@ -296,3 +297,47 @@ footer,
   border-radius: 8px;
   background-color: rgb(40, 40, 40);
 }
+
+/* 
+?------------
+!EFFETTI 
+?------------
+*/
+/* ?common */
+span:hover,
+a:hover,
+i:hover {
+  color: white;
+}
+
+/* ?main */
+/* hover button */
+.top-myspotify .btn:hover {
+  padding: 12px 43px;
+  font-size: 13px;
+}
+/* hover canzoni */
+.img-container .fa-circle-play {
+  display: none;
+  color: white;
+}
+.img-container {
+  position: relative;
+}
+.img-container img:hover {
+  filter: opacity(0.8);
+}
+.img-container:hover .fa-circle-play {
+  display: block;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+/* ?footer */
+footer .fa-circle-play:hover {
+  font-size: 35px;
+}
+
+/* !TODO apri ticket, .play button non si vede su hover (con questa soluzione non è centrato)*/
