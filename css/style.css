@@ -87,11 +87,15 @@ nav img {
   line-height: 5.3125rem;
   text-align: right;
   padding-right: 0.625rem;
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 55px;
 }
 
 /* ?corpo principlae con canzoni  */
 .myspotify .bottom-myspotify {
-  padding: 1.25rem;
+  padding: 105px 20px 20px 20px;
 }
 /* menu */
 .bottom-myspotify .bottom-myspotify-menu {
@@ -213,7 +217,7 @@ footer,
   nav {
     width: 230px;
     align-items: normal;
-    padding: 1.25rem 0 0.125rem 0;
+    padding: 1.25rem 0 0 0;
   }
   .icon li,
   .big-logo,
@@ -237,6 +241,11 @@ footer,
     padding-top: 15px;
     border-top: 1px solid var(--text-grey);
     margin-top: 15px;
+  }
+
+  /* *barra bottone */
+  .myspotify .top-myspotify {
+    left: 230px;
   }
 }
 
