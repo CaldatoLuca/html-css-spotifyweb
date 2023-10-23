@@ -127,6 +127,7 @@ nav .icon {
 /* griglia */
 .grid {
   flex-wrap: wrap;
+  overflow: auto;
 }
 .grid .grid-element {
   width: calc(100% / 2);
@@ -193,6 +194,7 @@ footer,
   background-color: var(--text-grey);
   height: 5px;
   border-radius: 30px;
+  cursor: pointer;
 }
 #big-bar {
   width: 30vw;
